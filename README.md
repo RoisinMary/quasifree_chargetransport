@@ -45,14 +45,14 @@ Upon running the program
 ## Example usage
 
 ### Example 1    
-`I=Hamiltonian.Evolution(Ls=250, ls=[2,3,4,5], C=True, QF=True, AutoSR=False,dirname='testSR')` 
+`I=qf_calcs.Evolution(Ls=250, ls=[2,3,4,5], C=True, QF=True, AutoSR=False,dirname='testSR')` 
 
 `please input the filename of a .npy file with desired times`
 
 `times.npy`
  
  ### Example 2    
-`I=Hamiltonian.Evolution(etas=0.1, PD=True, AutoSR=False,dirname='testSR')` 
+`I=qf_calcs.Evolution(etas=0.1, PD=True, AutoSR=False,dirname='testSR')` 
 
 `please input a list of sites with sites at which to calculate the particle density`
 
